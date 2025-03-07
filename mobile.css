@@ -5,6 +5,18 @@
         /* text-align: right; */
     }
 
+    section {
+        width: 90%;
+    }
+
+    section.hero div,
+    section.cat-block div article, 
+    section.main-galery div article,
+    section.main-video iframe
+    {
+        width: 100%;
+    }
+
     button {
         margin-left: auto;
         display: block;
@@ -43,7 +55,9 @@
     nav {
         display: none;
     }
+
     .cat-block article img {
         width: 75%;
     }
+
 }
