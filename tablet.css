@@ -1,0 +1,124 @@
+@media(max-width:1200px) {
+    body.main-page {
+        /* background-color: #f83838; */
+        /* background-color: rgb(13, 197, 37); */
+    }
+
+    .main-page .hero {
+        flex-direction: column;
+    }
+
+    .main-page section div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-page article {
+        width: 50%;
+        border-color: transparent;
+    }
+
+    .main-page iframe {
+        width: 50%;
+    }
+
+    .main-page hr {
+        width: 50%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    body.countries-page {
+        /* background-color: #f83838; */
+        /* background-color: red; */
+    }
+
+    .countries-page section {
+        /* background-color: green; */
+    }
+
+    .countries-page div.countries-bg {
+        margin-right: auto;
+        margin-left: auto;
+        width: 75%;
+        /* w75p */
+    }
+
+    .flags li h3 {
+        text-align: center;
+        margin-bottom: 200px;
+    }
+
+    .flags li p {
+        columns: 1;
+    }
+
+    .countries-page ul {
+        width: 75%;
+        margin-left: auto;
+        margin-right: auto;
+        /* margin: 0 auto; */
+    }
+
+    .flags li {
+        position: relative;
+    }
+
+    .flags img {
+        position: absolute;
+        top: 60px;
+        left: 50%;
+        /* right: 0; */
+        /* bottom: 0; */
+        padding-right: 0;
+        transform: translateX(-50%);
+    }
+
+    .page-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .units-page div.units-bg {
+        margin-right: auto;
+        margin-left: auto;
+        width: 75%;
+    }
+
+    .units-page article {
+        width: 85%;
+        margin-bottom: 36px;
+    }
+
+    .cat-block article img {
+        width: 50%;
+    }
+
+    .land-units li,
+    .naval-units li {
+        margin-bottom: 16px;
+        line-height: 1.5;
+    }
+
+    .resources-page .page-links {
+        width: 75%;
+    }
+
+    .resources-page div.resources-bg {
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+    }
+
+    .resourses {
+        width: 75%;
+        flex-direction: column;
+    }
+
+    .resourses article {
+        width: 100%;
+    }
+    .resourses h3{
+        text-align: left;
+    }
+}

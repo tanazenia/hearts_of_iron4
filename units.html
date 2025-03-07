@@ -1,11 +1,169 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Units | Hearts of Iron IV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./tablet.css">
+    <link rel="stylesheet" href="./mobile.css">
 </head>
-<body>
-    Units  
+
+<body class="units-page"> 
+<header>
+    <button></button>
+        <nav>
+            <a target="_blank" href="./index.html">main</a>
+            <a target="_blank" href="https://en.wikipedia.org/wiki/Hearts_of_Iron_IV">wiki</a>
+            <a target="_blank" href="https://en.wikipedia.org/wiki/Paradox_Development_Studio">site</a>
+            <a href="./countries.html">countries</a>
+            <a href="#">units</a>
+            <a href="./resourses.html">resourses</a>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <h1>units</h1>
+            <div class="section-bg units-bg"></div>
+        </section>
+        <section class="cat-block">
+            <h2 class="alegreya-sc-extrabold">Military branches</h2>
+            <div class="page-links">
+                <article>
+                    <h3 class="alegreya-sc-extrabold">Land</h3>
+                    <img src="./images/units/helmet.jpg" alt="">
+                    <h4>Nomenclature</h4>
+                    <p>The terms used in the game (e.g. regiment, brigade) have historically had different meanings in
+                        the militaries of different countries. This section explains the significance of these terms as
+                        they are defined for this game. </p>
+                    <h5>Division</h5>
+                    <p>Armies are composed of divisions, which is the smallest unit a player can directly control. </p>
+                    <h5>Battalion</h5>
+                    <p>Each division consists of 1-25 battalions - also sometimes called line battalions. This is the
+                        main fighting force, and the primary source of most statistics. The primary drain of manpower
+                        and equipment. </p>
+                    <h5>Battalion group and regiment</h5>
+                    <p>All battalions belong to a specific classification or group, such as "Infantry Battalion",
+                        "Mobile Battalion" and "Armoured Battalion".
+                        Regiments are the "columns" in the template designer. Battalions from different groups must be
+                        in different regiments (columns). There is no other effect of regiments. And, as there are 5
+                        regiments/columns but only 3 groups, it is never an issue. There are many other reasons not to
+                        use all 25 battalion slots and/or mix more than 1-2 battalion Groups anyway. </p>
+                    <h5>Support company</h5>
+                    <p>In addition to the battalions, a division may have up to 5 support companies. These often provide
+                        bonuses that cannot be otherwise obtained. Support companies can be roughly put into 4
+                        unofficial groups:
+                    </p>
+
+                    <ul class="land-units">
+                        <li>Artillery, which provides limited artillery tree capabilities for divisions that cannot
+                            afford to bring mainline artillery battalions along.</li>
+                        <li>Basic support, which only needs support equipment</li>
+                        <li> Motorized support, which needs support Equipment and some motorized</li>
+                        <li>Recon, which can be cavalry (infantry weapons, support), motorized (infantry weapons,
+                            support, and motorized), armoured car, or light tank</li>
+                    </ul>
+                    <a href="https://hoi4.paradoxwikis.com/Land_units">read more</a>
+                </article>
+                <article>
+                    <h3 class="alegreya-sc-extrabold">Air</h3>
+                    <img src="./images/units/aircraft.jpg" alt="">
+                    <h4>Small Airframe</h4>
+                    <table>
+                        <tr>
+                            <th>Primary Weapon Slot </th>
+                            <th>Role</th>
+                        </tr>
+                        <tr>
+                            <td>Naval Bomber Weapons</td>
+                            <td>Naval Bomber </td>
+                        </tr>
+                        <tr>
+                            <td>CAS Weapons</td>
+                            <td>CAS</td>
+                        </tr>
+                        <tr>
+                            <td>Fighter Weapons</td>
+                            <td>Fighter</td>
+                        </tr>
+                    </table>
+
+                    <h4>Medium Airframe</h4>
+                    <table>
+                        <tr>
+                            <th>Primary Weapon Slot</th>
+                            <th>Role</th>
+                        </tr>
+                        <tr>
+                            <td>Tactical Bomber Weapons</td>
+                            <td>Tactical Bomber</td>
+                        </tr>
+                        <tr>
+                            <td>Recon Equipment</td>
+                            <td>Scout</td>
+                        </tr>
+                        <tr>
+                            <td>Fighter Weapons</td>
+                            <td>Heavy Fighter</td>
+                        </tr>
+                    </table>
+
+                    <h4>Large Airframe</h4>
+                    <table>
+                        <tr>
+                            <th>Primary Weapon Slot</th>
+                            <th>Role</th>
+                        </tr>
+                        <tr>
+                            <td>Naval Bomber Weapons</td>
+                            <td>Naval Patrol Bomber</td>
+                        </tr>
+                        <tr>
+                            <td>Strategic Bomber Weapons</td>
+                            <td>Strategic Bomber</td>
+                        </tr>
+
+                    </table>
+                    <a href="https://hoi4.paradoxwikis.com/Aircraft_designer">read more</a>
+                </article>
+                <article>
+                    <h3 class="alegreya-sc-extrabold">Naval</h3>
+                    <img src="./images/units/ancor.webp" alt="">
+                    <h4>Capital ships</h4>
+                    <p>Super heavy battleship As the main surface combatants, capital ships are designed to sink enemy ships in surface battles.</p>
+                    <ul class="naval-units">
+                        <li><b>Super heavy battleship</b> (SHBB): SHBBs are particularly powerful and heavily-armored battleships, based upon a dedicated SHBB hull. Unlike other hulls which receive new iterations over the years, there is only one SHBB hull in the tech tree. SHBBs are powerful enough to remain a potent threat throughout the game despite the lack of hull iterations. However, they are also prohibitively expensive and take a very long time to build.</li>
+                        <li><b>Battleship</b> (BB): With their heavy armor, battleships are capable of surviving substantial amounts of incoming fire from the enemy battle line. They can also deal considerable damage of their own. Battleships are expensive and take some time to build.</li>
+                        <li><b>Battlecruiser</b> (BC): Battlecruisers share the same hull as battleships, but are distinguished by somewhat lighter armor and a lower construction cost. Although they can withstand less damage than a battleship, their lighter weight also makes them faster and harder to hit.</li>
+                        <li><b>Heavy cruiser</b> (CA): Heavy cruisers share the same hull as light cruisers, and are distinguished by their heavier guns. With the lightest armor of any capital ship, heavy cruisers have low survivability against battlecruisers and battleships.</li>
+                        <li><b>Carrier</b> (CV): Carriers are expensive to build, and are populated by specialised aircraft which must be built separately as well. The combined fuel cost of a carrier and its air wings can be considerable. Once these hurdles have been surmounted, carrier air wings can vie for control of the air and deal bomb damage to enemy ships during naval battle. Outside of naval battle, carriers may also be used as mobile air bases.</li>
+                    </ul>
+                    <a href="https://hoi4.paradoxwikis.com/Ship">read more</a>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024</p>
+        <p>author Banan4IK</p>
+    </footer>
+    <script>
+        // console.log(333);
+        // console.log("Zenia");
+        let button=document.querySelector("button")
+        console.dir(button);
+        button.addEventListener("click",function(){
+            // console.log("meni smishno");
+            button.classList.toggle("active-menu")
+        })
+        
+    </script>
 </body>
+
 </html>

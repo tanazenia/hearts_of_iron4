@@ -4,8 +4,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resourses | Hearts of Iron IV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./tablet.css">
+    <link rel="stylesheet" href="./mobile.css">
 </head>
-<body>
-    Resourses 
+<body class="resources-page">
+    
+    <header>
+        <button></button>
+    <nav>
+            <a target="_blank" href="./index.html">main</a>
+            <a target="_blank" href="https://en.wikipedia.org/wiki/Hearts_of_Iron_IV">wiki</a>
+            <a target="_blank" href="https://en.wikipedia.org/wiki/Paradox_Development_Studio">site</a>
+            <a href="./countries.html">countries</a>
+            <a href="./units.html">units</a>
+            <a href="#">resourses</a>
+        </nav>
+    </header>
+    <main>
+        <section class="container page-links">
+            <h1>resourses</h1>
+        <div class="section-bg resources-bg"></div>
+        </section>
+        <section class="resourses">
+            <article>
+                <h3>oil</h3>
+                <p>Oil is used to make fuel that is used for tanks and trucks, aviation and the navy
+                    To increase oil production, oil refineries need to be built</p>
+            </article>
+            <article>
+                <h3>алюминий</h3>
+                <p>aluminum is needed for the production of aircraft but also for additional equipment
+                </p>
+            </article>
+            <article>
+                <h3>резина</h3>
+                <p>Rubber is needed for the production of aircraft, tanks and trucks
+                </p>
+            </article>
+            <article>
+                <h3>вольфрам</h3>
+                <p>tungsten is used to make artillery and jet aircraft</p>
+            </article>
+            <article>
+                <h3>сталь</h3>
+                <p>steel is needed to make almost everything - Weapons
+                    Ships
+                    Tanks
+                    Armored vehicles
+                    Air defense 
+                    Steel is one of the most useful resources</p>
+            </article>
+            <article>
+                <h3>хром</h3>
+                <p>To produce ships you need a lot of chromium, but chromium is also used to produce heavy tanks</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024</p>
+        <p>author Banan4IK</p>
+    </footer>
+    <script>
+        // console.log(333);
+        // console.log("Zenia");
+        let button=document.querySelector("button")
+        console.dir(button);
+        button.addEventListener("click",function(){
+            // console.log("meni smishno");
+            button.classList.toggle("active-menu")
+        })
+        
+    </script>
 </body>
 </html>

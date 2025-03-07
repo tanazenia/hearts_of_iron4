@@ -1,11 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Countries | Hearts of Iron IV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./tablet.css">
+    <link rel="stylesheet" href="./mobile.css">
 </head>
-<body>
-    Countries   
+
+<body class="countries-page">
+
+    <header>
+        <button></button>
+        <nav>
+            <a target="_blank" href="./index.html">main</a>
+            <a target="_blank" href="https://en.wikipedia.org/wiki/Hearts_of_Iron_IV">wiki</a>
+            <a target="_blank" href="https://en.wikipedia.org/wiki/Paradox_Development_Studio">site</a>
+            <a href="#">countries</a>
+            <a href="./units.html">units</a>
+            <a href="./resourses.html">resourses</a>
+        </nav>
+    </header>
+    <main>
+        <section class="container">
+            <h1>Countries</h1>
+            <div class="section-bg countries-bg"></div>
+        </section>
+        <section class="container flags">
+            <h2>list of armies</h2>
+            <ul>
+            
+                <li>
+                    
+                    <h3>France</h3>
+                    <p><img src="./images/icons/france.svg" alt="" width="200">
+                        France was one of the largest military powers to come under occupation as part of the Western Front in World War II. The Western Front was a military theatre of World War II encompassing Denmark, Norway, Luxembourg, Belgium, the Netherlands, the United Kingdom, France, Italy, and Germany. The Western Front was marked by two phases of large-scale combat operations.</p>
+                </li>
+                <li>
+                   
+                    <h3>Belgium</h3>
+                    <p> <img src="./images/icons/belgium.png" alt="" width="200">
+                        Despite being neutral at the start of World War II, Belgium and its colonial possessions found themselves at war after the country was invaded by German forces on 10 May 1940. After 18 days of fighting in which Belgian forces were pushed back into a small pocket in the north-west of the country, the Belgian military surrendered to the Germans, beginning an occupation that would endure until 1944. The surrender of 28 May was ordered by King Leopold III without the consultation of his government and sparked a political crisis after the war. Despite the capitulation, many Belgians managed to escape to the United Kingdom where they formed a government and army-in-exile on the Allied side. </p>
+                </li>
+                <li>
+                    <h3>Netherland</h3>
+                    <p>
+                        <img src="./images/icons/nederlands.png" alt="" width="200">
+                        Despite Dutch neutrality, Nazi Germany invaded the Netherlands on 10 May 1940 as part of Fall Gelb (Case Yellow).[1] On 15 May 1940, one day after the bombing of Rotterdam, the Dutch forces surrendered. The Dutch government and the royal family relocated to London. Princess Juliana and her children sought refuge in Ottawa, Canada until after the war. </p>
+                </li>
+                <li>
+                    
+                    <h3>Deutschland</h3>
+                    <p><img src="./images/icons/germany.png" alt="" width="200">
+                        Germany rapidly conquered much of Europe and the Soviet Union from 1939 to 1942. Soviet victories over German forces reversed the course of the war in 1942–43. With the Allies advancing from both the east and west, Germany surrendered in 1945. German troops parade through Warsaw after the German invasion of Poland.</p>
+                </li>
+                <li>
+                    <h3>Denmark</h3>
+                    <p><img src="./images/icons/denmark.png" alt="" width="200"
+                        >At the outset of World War II in September 1939, Denmark declared itself neutral, but that neutrality did not prevent Nazi Germany from occupying the country almost immediately after the outbreak of war; the occupation lasted until Germany's defeat. The decision to occupy Denmark was taken in Berlin on 17 December 1939.[1] On 9 April 1940, Germany occupied Denmark in Operation Weserübung. </p>
+                </li>
+                <li>
+                    <h3>Poland</h3>
+                    <p><img src="./images/icons/poland.svg" alt="" width="200"
+                            >Following the German–Soviet non-aggression pact, Poland was invaded by Nazi Germany on 1 September 1939 and by the Soviet Union on 17 September. The campaigns ended in early October with Germany and the Soviet Union dividing and annexing the whole of Poland.</p>
+                </li>
+            </ul>
+            <!-- <ol>
+                <li>France</li>
+                <li>Belgium</li>
+                <li>Netherland</li>
+                <li>Deutschland</li>
+                <li>Denmark</li>
+                <li>Poland</li>
+            </ol> -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024</p>
+        <p>author Banan4IK</p>
+    </footer>
+    <script>
+        // console.log(333);
+        // console.log("Zenia");
+        let button=document.querySelector("button")
+        console.dir(button);
+        button.addEventListener("click",function(){
+            // console.log("meni smishno");
+            button.classList.toggle("active-menu")
+        })
+        
+    </script>
 </body>
+
 </html>
